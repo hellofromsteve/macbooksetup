@@ -1,0 +1,52 @@
+# Laravel Artisan ShortCuts
+alias pa="php artisan "
+alias pam="php artisan make:"
+alias pammo="php artisan make:model"
+alias pammm="php artisan make:model -m"
+alias pammf="php artisan make:model -mf"
+alias paml="php artisan make:livewire"
+alias pas="php artisan serve"
+alias paca="php artisan cache:clear && php artisan route:clear && php artisan config:clear && php artisan view:clear && php artisan optimize:clear"
+alias pacc="php artisan cache:clear"
+alias parc="php artisan route:clear"
+alias pamc="php artisan make:controller"
+alias pamt="php artisan make:trait"
+alias pam="php artisan migrate"
+alias pamm="php artisan make:migration"
+alias pamf="php artisan migrate:fresh"
+alias pams="php artisan migrate:fresh --seed"
+alias pads="php artisan db:seed"
+alias paqw="php artisan queue:work"
+alias paqr="php artisan queue:retry all"
+alias paml="php artisan make:livewire"
+alias pamv="php artisan make:volt"
+alias patf="php artisan tenants:migrate-fresh"
+alias patm="php artisan tenants:migrate"
+alias patl="php artisan tenants:list"
+alias paad="php artisan migrate:fresh --seed && php artisan tenants:migrate-fresh && php artisan tenants:seed"
+
+alias clr="clear"
+alias nrd="npm run dev"
+
+# Navigation aliases (short versions)
+alias home="cd ~"
+alias lar="cd ~/Apps/Laravel"
+alias desk="cd ~/Desktop"
+alias dl="cd ~/Downloads"
+alias docs="cd ~/Documents"
+
+
+
+# General aliases
+alias zcon="code ~/.zshrc"
+alias zsor="source ~/.zshrc"
+alias zpro="code ~/.zprofile"
+alias sshcon="code ~/.ssh"
+alias config="code ~/.config"
+
+# Git aliases
+alias ga="git add ."
+alias gc="git commit -m"
+alias gp="git push"
+alias gpm="git push origin -u main"
+alias gs="git status"
