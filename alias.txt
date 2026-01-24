@@ -1,3 +1,4 @@
+
 # Laravel Artisan ShortCuts
 alias pa="php artisan "
 alias pam="php artisan make:"
@@ -10,7 +11,7 @@ alias paca="php artisan cache:clear && php artisan route:clear && php artisan co
 alias pacc="php artisan cache:clear"
 alias parc="php artisan route:clear"
 alias pamc="php artisan make:controller"
-alias pamt="php artisan make:trait"
+alias pamtt="php artisan make:trait"
 alias pam="php artisan migrate"
 alias pamm="php artisan make:migration"
 alias pamf="php artisan migrate:fresh"
@@ -20,12 +21,23 @@ alias paqw="php artisan queue:work"
 alias paqr="php artisan queue:retry all"
 alias paml="php artisan make:livewire"
 alias pamv="php artisan make:volt"
-alias patf="php artisan tenants:migrate-fresh"
+alias patmf="php artisan tenants:migrate-fresh"
 alias patm="php artisan tenants:migrate"
+alias pats="php artisan tenants:seed"
 alias patl="php artisan tenants:list"
+alias pat="php artisan tinker"
+alias pasp="php artisan sync:plans"
+alias pamt="php artisan make:test"
 alias paad="php artisan migrate:fresh --seed && php artisan tenants:migrate-fresh && php artisan tenants:seed"
+alias test="./vendor/bin/pest"
+alias pint="./vendor/bin/pint"
+alias punit="./vendor/bin/phpunit"
+alias test-p="./vendor/bin/pest --parallel"
+alias test-d="./vendor/bin/pest --debug"
+
 
 alias clr="clear"
+alias ex="exit"
 alias nrd="npm run dev"
 
 # Navigation aliases (short versions)
@@ -44,16 +56,21 @@ alias zpro="code ~/.zprofile"
 alias sshcon="code ~/.ssh"
 alias config="code ~/.config"
 
+
+# Rovo AI Login
+alias rovologin="acli rovodev auth login"
+alias rovologout="acli rovodev auth logout"
+alias rovorun="acli rovodev run"
+
+
 # Git aliases
 alias ga="git add ."
 alias gc="git commit -m"
 alias gp="git push"
 alias gpm="git push origin -u main"
-alias gs="git status"
-alias gr="git reset"
-alias gl="git log"
+alias gpo="git push origin"
+alias gl="git log --oneline --graph --decorate"
+alias gco="git checkout"
 alias gb="git branch"
-alias gch="git checkout"
-alias gm="git merge"
-alias gsh="git stash"
-alias gbd="git branch -d"
+alias gcb="git checkout -b"
+alias gs="git status"
