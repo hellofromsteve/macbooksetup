@@ -1,0 +1,10 @@
+Host solentik
+    HostName 167.235.227.99
+    User root
+    IdentityFile ~/.ssh/id_ed25519
+
+
+Host general
+    HostName 178.104.190.20
+    User root
+    IdentityFile ~/.ssh/id_ed25519

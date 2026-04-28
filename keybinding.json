@@ -1,0 +1,122 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "` cmd",
+    "command": "workbench.action.terminal.new",
+    "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+  },
+  {
+    "key": "ctrl+shift+`",
+    "command": "-workbench.action.terminal.new",
+    "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+  },
+  {
+    "key": "shift+cmd+p",
+    "command": "workbench.action.showCommands"
+  },
+  {
+    "key": "shift+cmd+p",
+    "command": "-workbench.action.showCommands"
+  },
+  {
+    "key": "alt+g",
+    "command": "workbench.action.toggleAuxiliaryBar"
+  },
+  {
+    "key": "alt+cmd+b",
+    "command": "-workbench.action.toggleAuxiliaryBar"
+  },
+
+  {
+    "key": "alt+c",
+    "command": "workbench.action.chat.openagent",
+    "when": "config.chat.agent.enabled && !chatSetupDisabled && !chatSetupHidden"
+  },
+  {
+    "key": "shift+cmd+i",
+    "command": "-workbench.action.chat.openagent",
+    "when": "config.chat.agent.enabled && !chatSetupDisabled && !chatSetupHidden"
+  },
+  {
+    "key": "shift+cmd+o backspace",
+    "command": "agentSessions.toggleAgentSessionsSidebar"
+  },
+  {
+    "key": "shift+alt+v",
+    "command": "markdown.showPreview",
+    "when": "!notebookEditorFocused && editorLangId =~ /^(markdown|prompt|instructions|chatagent)$/"
+  },
+  {
+    "key": "shift+cmd+v",
+    "command": "-markdown.showPreview",
+    "when": "!notebookEditorFocused && editorLangId =~ /^(markdown|prompt|instructions|chatagent)$/"
+  },
+  {
+    "key": "shift+alt+b",
+    "command": "markdown.showSource"
+  },
+  {
+    "key": "alt+cmd+left",
+    "command": "workbench.action.splitEditorLeft"
+  },
+  {
+    "key": "cmd+k cmd+\\",
+    "command": "-workbench.action.splitEditorLeft"
+  },
+  {
+    "key": "alt+cmd+right",
+    "command": "workbench.action.splitEditorRight"
+  },
+  {
+    "key": "cmd+k cmd+\\",
+    "command": "-workbench.action.splitEditorRight"
+  },
+  {
+    "key": "shift+cmd+a",
+    "command": "editor.emmet.action.balanceOut"
+  },
+  {
+    "key": "shift+cmd+g",
+    "command": "editor.emmet.action.balanceIn"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "agentSessions.hideAgentSessionsSidebar"
+  },
+  {
+    "key": "shift+cmd+9",
+    "command": "workbench.action.terminal.openNativeConsole",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "-workbench.action.terminal.openNativeConsole",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "shift+cmd+i",
+    "command": "phpNamespaceResolver.import",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+i",
+    "command": "-phpNamespaceResolver.import",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+'",
+    "command": "phpNamespaceResolver.importAll",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+a",
+    "command": "-phpNamespaceResolver.importAll",
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "cmd+l",
+    "command": "workbench.action.quickOpen",
+    "args": "⚡"
+  }
+]
